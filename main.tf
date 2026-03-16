@@ -34,8 +34,8 @@ resource "docker_container" "api" {
     external = 8000
   }
 
-  volumes {
-    volume_name    = docker_volume.data.name
-    container_path = "/data"
-  }
+#  volumes {
+#    volume_name    = docker_volume.data.name
+#    container_path = "/data"
+#  }
 }

@@ -1,0 +1,5 @@
+.tofu/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+__pycache__/

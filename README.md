@@ -18,7 +18,7 @@ Clonare il repository in locale.
 
 Struttura del progetto:  
 
-opentofu-uvicorn/  
+WSA-lab/  
 │  
 ├─ app/  
 │  ├─ main.py  
@@ -28,11 +28,11 @@ opentofu-uvicorn/
 ├─ main.tf  
 └─ outputs.tf  
 
-Il progretto ha un branch.
-
 In questa fase si lancia l’app main.py con OpenTofu.  
-Spostarsi nella cartella opentofu-uvicorn, eseguire i comandi:  
+Spostarsi nella cartella WSA-lab, eseguire i comandi:  
 ~$ tofu init  
 ~$ tofu plan  
 ~$ tofu apply  
 
+Per terminare l'infrastruttura:  
+~$ tofu destroy
